@@ -1,2 +1,2 @@
-include: _default_template_yaml
+include: _default_template
 task: pinocchio_it
