@@ -1,0 +1,5 @@
+include: _default_template.yaml
+task: pinocchio_it_lingua_straniera
+test_split: lingua_straniera
+fewshot_split: lingua_straniera 
+

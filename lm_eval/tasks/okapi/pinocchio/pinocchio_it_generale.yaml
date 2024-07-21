@@ -1,0 +1,4 @@
+include: _default_template.yaml
+task: pinocchio_it_generale
+test_split: generale
+fewshot_split: generale 

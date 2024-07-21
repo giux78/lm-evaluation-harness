@@ -1,0 +1,3 @@
+include: _default_template.yaml
+task: pinocchio_it_cultura
+test_split: cultura
