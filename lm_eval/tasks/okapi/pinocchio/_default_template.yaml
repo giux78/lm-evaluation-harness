@@ -1,10 +1,7 @@
-group:
-  - pinocchio
 dataset_path: mii-llm/pinocchio
-test_split: generale
-#fewshot_split: validation 
-#fewshot_config:
-#  sampler: first_n
+dataset_name: text
+fewshot_config:
+  sampler: first_n
 output_type: multiple_choice
 doc_to_text: !function utils.doc_to_text
 doc_to_choice: !function utils.doc_to_choice

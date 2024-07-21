@@ -1,0 +1,4 @@
+include: _default_template.yaml
+task: pinocchio_it_matematica_e_scienze
+test_split: matematica_e_scienze
+fewshot_split: matematica_e_scienze 
