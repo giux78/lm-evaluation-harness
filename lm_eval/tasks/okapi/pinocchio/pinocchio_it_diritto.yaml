@@ -1,0 +1,4 @@
+include: _default_template.yaml
+task: pinocchio_it_diritto
+test_split: diritto
+fewshot_split: diritto 

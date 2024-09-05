@@ -1,0 +1,4 @@
+include: _default_template.yaml
+task: pinocchio_it_logica
+test_split: logica
+fewshot_split: logica 
