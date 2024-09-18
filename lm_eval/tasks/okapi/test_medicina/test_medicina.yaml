@@ -1,2 +1,3 @@
 include: _default_template.yaml
 task: test_medicina
+test_split: test

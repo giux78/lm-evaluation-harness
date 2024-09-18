@@ -6,7 +6,6 @@ def doc_to_text(x):
         inp = inp + f"\\n{choice['key']}. {choice['value']}"
     return inp + "\\nRisposta:"
 
-
 def doc_to_choice(x):
     choices = x["options"]
     answers = []

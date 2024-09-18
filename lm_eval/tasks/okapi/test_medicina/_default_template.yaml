@@ -1,5 +1,4 @@
-dataset_path: mii-llm/test_medicina
-dataset_name: test
+dataset_path: mii-llm/test_medicina_eval
 fewshot_config:
   sampler: first_n
 output_type: multiple_choice
