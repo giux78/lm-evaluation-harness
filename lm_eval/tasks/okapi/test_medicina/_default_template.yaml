@@ -1,0 +1,14 @@
+dataset_path: mii-llm/test_medicina
+dataset_name: test
+fewshot_config:
+  sampler: first_n
+output_type: multiple_choice
+doc_to_text: !function utils.doc_to_text
+doc_to_choice: !function utils.doc_to_choice
+doc_to_target: '{{["A", "B", "C", "D", "E"].index(answer)}}'
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 0.0
