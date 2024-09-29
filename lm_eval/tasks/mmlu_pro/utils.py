@@ -22,7 +22,7 @@ choices = [
 
 
 def format_cot_example(example, including_answer=True):
-    prompt = "Question:\n"
+    prompt = "Domanda:\n"
     question = example["question"]
     options = example["options"]
     prompt += question + "\n"
@@ -31,11 +31,11 @@ def format_cot_example(example, including_answer=True):
         prompt += "{}. {}\n".format(choices[i], opt)
     if including_answer:
         cot_content = example["cot_content"].replace(
-            "A: Let's think step by step.", "Answer: Let's think step by step."
+            "A: Pensa passo dopo passo.", "Risposta: Pensa passo dopo passo."
         )
         prompt += cot_content + "\n\n"
     else:
-        prompt += "Answer: Let's think step by step."
+        prompt += "Risposta: Pensa passo dopo passo."
     return prompt
 
 
